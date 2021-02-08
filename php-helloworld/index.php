@@ -1,3 +1,3 @@
 <?php
-print "[update2] Hello, World! php version is: " . MY_ENV . "\n";
+print "[update2] Hello, World! php version is: " . getenv("MY_ENV") . "\n";
 ?>
